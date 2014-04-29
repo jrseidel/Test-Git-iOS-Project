@@ -21,6 +21,7 @@
 		6ABB4E6B1910120B00EC3BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABB4E4D1910120B00EC3BEE /* UIKit.framework */; };
 		6ABB4E731910120B00EC3BEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ABB4E711910120B00EC3BEE /* InfoPlist.strings */; };
 		6ABB4E751910120B00EC3BEE /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB4E741910120B00EC3BEE /* Git_TestTests.m */; };
+		6ABB4E80191016CA00EC3BEE /* DUQTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB4E7F191016CA00EC3BEE /* DUQTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6ABB4E701910120B00EC3BEE /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		6ABB4E721910120B00EC3BEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ABB4E741910120B00EC3BEE /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		6ABB4E7E191016CA00EC3BEE /* DUQTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUQTest.h; sourceTree = "<group>"; };
+		6ABB4E7F191016CA00EC3BEE /* DUQTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUQTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				6ABB4E5B1910120B00EC3BEE /* Main.storyboard */,
 				6ABB4E5E1910120B00EC3BEE /* DUQViewController.h */,
 				6ABB4E5F1910120B00EC3BEE /* DUQViewController.m */,
+				6ABB4E7E191016CA00EC3BEE /* DUQTest.h */,
+				6ABB4E7F191016CA00EC3BEE /* DUQTest.m */,
 				6ABB4E611910120B00EC3BEE /* Images.xcassets */,
 				6ABB4E501910120B00EC3BEE /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				6ABB4E561910120B00EC3BEE /* main.m in Sources */,
 				6ABB4E601910120B00EC3BEE /* DUQViewController.m in Sources */,
+				6ABB4E80191016CA00EC3BEE /* DUQTest.m in Sources */,
 				6ABB4E5A1910120B00EC3BEE /* DUQAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
